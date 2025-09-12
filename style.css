@@ -48,7 +48,6 @@ nav li{
 nav li a{
    text-decoration: none !important;
    padding: 10px 0px;
-   width: 100%;
    font-weight: bold;
    display: flex;
 }
@@ -63,7 +62,7 @@ nav li a{
  position: relative;
  top: 200px;
  display: block;
- padding: 30px 190px;
+ padding: 30px 250px;
 }
 .content-1 h2{
  font-weight: bold;
@@ -181,4 +180,5 @@ nav li a{
   height: 650px;
   width: 500px;
 }
+
 
