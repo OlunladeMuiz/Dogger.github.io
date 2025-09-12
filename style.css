@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 header{
     position: fixed;
     width: 100%;
@@ -16,6 +21,17 @@ nav{
  margin: 0;
  padding: 0;
  text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.navbar-brand a{
+  text-align: center;
+  text-decoration: none !important;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 0px;
 }
 
 nav ul{
@@ -31,31 +47,31 @@ nav li{
 }
 nav li a{
    text-decoration: none !important;
-   padding: 10px 40px;
+   padding: 10px 90px;
    width: 100%;
    font-weight: bold;
-   display: inline-block;
+   display: flex;
 }
 
 .content{
   width: 100%;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 .content-1{
  position: relative;
  top: 200px;
  display: block;
- padding: 30px 150px;
+ padding: 30px 160px;
 }
 .content-1 h2{
  font-weight: bold;
  font-size: 70px;
 }
 .content-2{
-  position: absolute;
-  left: 800px;
-  top: 5px;
-  z-index: 19;
+  padding: 0 50px;
+  z-index: 18;
 }
 .content-2 img{
     height: 700px;
